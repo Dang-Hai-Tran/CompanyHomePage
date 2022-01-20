@@ -1,0 +1,184 @@
+* {
+	/* border: 1px solid red; */
+}
+html {
+	font-size: 16px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1 {
+  font-size: 80px;
+  color: black;
+}
+h2 {
+  font-size: 53px;
+  color: #FFFFFF;
+}
+h3 {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+p {
+  color: #FFFFFF;
+}
+/* Header setup */
+header {
+	height: 70px;
+	display: grid;
+	grid-template-columns: 135px 6fr 20px 1fr;
+	grid-template-rows: 100%;
+	align-items: center;
+	justify-items: center;
+	position: fixed;
+  z-index: 5;
+	width: 100%;
+  background-color: #FFFFFF;
+}
+header nav a {
+	font-size: 1.1875rem;
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+#logo {
+	height: 100%;
+}
+#language {
+	width: 100%;
+	display: grid;
+}
+#singinbutton {
+	width: 70%;
+	height: 60%;
+	border-radius: 20px;
+	text-decoration: none;
+	color: blue;
+	font-size: 1.1875rem;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+  border: 1px solid blue;
+}
+/* Main setup */
+main {
+	position: relative;
+	top: 75px;
+	background-color: #f5f5f5;
+}
+
+/* Part1: Get started */
+#getstart div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#getstart h1 {
+	width: 50%;
+}
+#getstart h3 {
+  width: 40%;
+  font-weight: normal;
+  color: black;
+}
+#getstart a {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration:none;
+  color: #FFFFFF;
+  background-color: #3180FC;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+#getstart img {
+  width: 100%;
+}
+
+/* Part2: Create the Website */
+#createwebsite {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 350px auto;
+  justify-content: start;
+  text-align: left;
+}
+#createwebsite #d1a {
+  background-color: #14348E;
+  display: grid;
+  align-content: space-around;
+}
+#createwebsite #d1a h2 {
+  margin: auto 10%;
+  position: relative;
+  bottom: 20px;
+}
+#createwebsite #d1b {
+  background-color: #14348E;
+  display: grid;
+  align-content: center;
+}
+#createwebsite #d1b h3 {
+  margin: auto 10%;
+}
+#createwebsite #d1b a {
+  margin-left: 10%;
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 20px;
+
+}
+#createwebsite #d2a {
+  background-color: #035946; 
+}
+#createwebsite #d2a #d2acontainer {
+  margin: auto 10%;
+  display: grid;
+  align-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1.5fr 1fr 1fr 0.7fr;
+  gap: 15px;
+
+}
+#createwebsite #d2a #d2a1 {
+  grid-area: 1/1/span 1/span 2;
+}
+
+#createwebsite #d2a #d2a2a {
+  grid-area: 2/1/span 1/span 1;
+}
+#createwebsite #d2a #d2a2b {
+  grid-area: 2/2/span 1/span 1;
+}
+
+#d2a3a {
+  grid-area: 3/1/4/2;
+}
+#d2a3b {
+  grid-area: 3/2/4/3;
+}
+#d2a4 {
+  grid-area: 4/1/5/3;
+  display: grid;
+  align-content: center;
+}
+#d2a4 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+#createwebsite #d2b {
+  display: grid;
+  align-content: center;
+}
+#createwebsite #d2b img {
+  width: 80%;
+  margin: auto 10%;
+}
